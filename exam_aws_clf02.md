@@ -1,3 +1,26 @@
+네, 알겠습니다. Markdown 렌더링 문제를 파악했습니다. ** 문자가 그대로 노출되는 현상을 수정하고, 정답 알파벳만 정확하게 굵게 표시되도록 고쳐드리겠습니다.
+
+수정 방법
+
+기존의 **정답: C** 형식 대신, 아래와 같이 콜론 뒤의 알파벳만 별표(**)로 감싸면 대부분의 Markdown 뷰어에서 의도하신 대로 굵게 표시됩니다.
+
+변경 전:
+**정답: C**
+
+변경 후:
+정답: **C**
+
+두 개 이상의 정답일 경우에도 동일하게 적용합니다.
+
+변경 전:
+**정답: B, E**
+
+변경 후:
+정답: **B**, **E**
+
+수정된 전체 문제 노트 (바로 복사해서 사용하세요)
+
+이 수정 사항을 이전에 생성해 드린 모든 문제 목록에 적용하여 다시 제공해 드립니다. 이제 이 노트를 깃허브에 바로 사용하시면 됩니다.
 
 1. 다음 중 AWS 계정 루트 사용자의 특징은 무엇입니까?
 
@@ -11,7 +34,7 @@ D. 루트 사용자의 비밀번호는 변경할 수 없습니다.
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -41,7 +64,7 @@ D. Amazon 머신 이미지(AMI)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -69,7 +92,7 @@ E. 운영 우수성
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B, E**
+정답: **B**, **E**
 
 
 설명:
@@ -105,7 +128,7 @@ D. AWS 시스템 관리자
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -133,7 +156,7 @@ E. S3 버킷 버전 관리
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A, B (만약 네트워크 트래픽 제어 요구사항이라면)**
+정답: **A**, **B** (만약 네트워크 트래픽 제어 요구사항이라면)
 
 
 설명:
@@ -161,7 +184,7 @@ D. 전용 호스트
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
@@ -187,7 +210,7 @@ D. 아마존 넵튠
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
@@ -217,7 +240,7 @@ E. 투명한 데이터 암호화(TDE)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A, B**
+정답: **A**, **B**
 
 
 설명:
@@ -243,7 +266,7 @@ D. 8개의 인스턴스는 RI로 청구됩니다.
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -272,7 +295,7 @@ D. AWS Step Functions
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -300,7 +323,7 @@ D. Microsoft Active Directory용 AWS 디렉터리 서비스
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B**
+정답: **B**
 
 
 설명:
@@ -326,7 +349,7 @@ D. 저축 계획
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B**
+정답: **B**
 
 
 설명:
@@ -354,7 +377,7 @@ E. 모든 가용성 영역에는 단일 데이터 센터가 포함됩니다.
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A, C**
+정답: **A**, **C**
 
 
 설명:
@@ -384,7 +407,7 @@ D. AWS IAM ID 센터
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -411,7 +434,7 @@ D. 비즈니스 성과를 지원하도록 회사를 구성합니다.
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -438,7 +461,7 @@ D. S3 One Zone-Infrequent Access(S3 One Zone-IA)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -464,7 +487,7 @@ D. AWS 방화벽 관리자
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -490,7 +513,7 @@ D. 최적화된 인스턴스 계산
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -516,7 +539,7 @@ E. MariaDB
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C, D**
+정답: **C**, **D**
 
 
 설명:
@@ -540,7 +563,7 @@ D. Amazon EC2 인스턴스 전반에서 인터넷 트래픽의 부하를 분산�
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B**
+정답: **B**
 
 
 설명:
@@ -566,7 +589,7 @@ E. 계정 활동 기록
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B, D**
+정답: **B**, **D**
 
 
 설명:
@@ -599,7 +622,7 @@ D. S3 지능형 계층화
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -623,7 +646,7 @@ D. Amazon Elastic Block Store(Amazon EBS)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
@@ -647,7 +670,7 @@ D. IAM 사용자 SSH 키
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -673,7 +696,7 @@ E. 사용자 수에 따라 인프라를 확장합니다.
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A, C (또는 A, E)**
+정답: **A**, **C** (또는 **A**, **E**)
 
 
 설명:
@@ -702,7 +725,7 @@ D. 컴퓨팅 용량에 대한 추측 없음
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -726,7 +749,7 @@ D. 하이브리드
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -750,7 +773,7 @@ D. 보안 그룹
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
@@ -776,7 +799,7 @@ D. 아마존 타임스트림
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B**
+정답: **B**
 
 
 설명:
@@ -800,7 +823,7 @@ D. 지역 에지 캐시
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -826,7 +849,7 @@ D. 아마존 레드쉬프트
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -850,7 +873,7 @@ D. 병렬적으로 생각해보세요
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -874,7 +897,7 @@ D. AWS Fargate
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -898,7 +921,7 @@ D. AWS App Runner
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -922,7 +945,7 @@ D. 여러 데이터 센터에 있는 두 개 이상의 물리적 호스트.
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
@@ -946,7 +969,7 @@ D. Amazon CloudWatch
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -974,7 +997,7 @@ E. AWS 강의실 교육
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B, E**
+정답: **B**, **E**
 
 
 설명:
@@ -1003,7 +1026,7 @@ D. Amazon S3
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -1029,7 +1052,7 @@ D. S3 액세스 포인트
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -1055,7 +1078,7 @@ E. Amazon Elastic Container Service(Amazon ECS)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B, C**
+정답: **B**, **C**
 
 
 설명:
@@ -1081,7 +1104,7 @@ D. Amazon Kinesis 데이터 스트림
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: C**
+정답: **C**
 
 
 설명:
@@ -1106,7 +1129,7 @@ D. Amazon EC2 자동 확장
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B**
+정답: **B**
 
 
 설명:
@@ -1136,7 +1159,7 @@ E. 전용 호스트
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B, D**
+정답: **B**, **D**
 
 
 설명:
@@ -1163,7 +1186,7 @@ D. S3 One Zone-Infrequent Access(S3 One Zone-IA)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
@@ -1188,7 +1211,7 @@ D. Amazon Elastic File System(Amazon EFS)
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: B**
+정답: **B**
 
 
 설명:
@@ -1212,7 +1235,7 @@ D. AWS 코드스타
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: D**
+정답: **D**
 
 
 설명:
@@ -1222,6 +1245,9 @@ D (정답): AWS CodeStar는 AWS에서 애플리케이션을 신속하게 개발,
 A (오답): AWS Config는 AWS 리소스의 구성을 평가, 감사 및 검사하는 서비스입니다.
 
 </details>
+
+
+---
 
 
 ---
@@ -1238,7 +1264,7 @@ D. 아마존 렉스
 
 <details markdown=1>
 <summary markdown='span'>정답 및 설명</summary>
-**정답: A**
+정답: **A**
 
 
 설명:
