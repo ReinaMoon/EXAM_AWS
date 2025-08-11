@@ -9,7 +9,8 @@ C. 루트 사용자는 AWS 계정이 생성될 때 사용할 수 있는 첫 번�
 
 D. 루트 사용자의 비밀번호는 변경할 수 없습니다.
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -38,7 +39,8 @@ C. Amazon Elastic Block Store(Amazon EBS) 스냅샷
 
 D. Amazon 머신 이미지(AMI)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -65,7 +67,8 @@ D. 반응형 디자인
 
 E. 운영 우수성
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B, E**
 
 
@@ -100,7 +103,8 @@ C. AWS 클라우드HSM
 
 D. AWS 시스템 관리자
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -127,7 +131,8 @@ D. IAM 사용자 정책
 
 E. S3 버킷 버전 관리
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A, B (만약 네트워크 트래픽 제어 요구사항이라면)**
 
 
@@ -154,7 +159,8 @@ C. 표준 예약 인스턴스
 
 D. 전용 호스트
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
@@ -179,7 +185,8 @@ C. Amazon DocumentDB(MongoDB와 호환)
 
 D. 아마존 넵튠
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
@@ -208,7 +215,8 @@ D. SSL
 
 E. 투명한 데이터 암호화(TDE)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A, B**
 
 
@@ -233,7 +241,8 @@ C. 인스턴스 5개는 RI로 청구되고, 인스턴스 3개는 일반 인스�
 
 D. 8개의 인스턴스는 RI로 청구됩니다.
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -261,7 +270,8 @@ C. AWS 배치
 
 D. AWS Step Functions
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -288,7 +298,8 @@ C. AWS ID 및 액세스 관리(IAM)
 
 D. Microsoft Active Directory용 AWS 디렉터리 서비스
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B**
 
 
@@ -313,7 +324,8 @@ C. AWS 비용 및 사용 보고서
 
 D. 저축 계획
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B**
 
 
@@ -340,7 +352,8 @@ D. AWS 지역 내의 가용성 영역은 중복된 전원, 네트워킹 및 연�
 
 E. 모든 가용성 영역에는 단일 데이터 센터가 포함됩니다.
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A, C**
 
 
@@ -369,7 +382,8 @@ C. AWS 디렉터리 서비스
 
 D. AWS IAM ID 센터
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -395,7 +409,8 @@ C. 작고 되돌릴 수 있는 변경을 자주 만드세요.
 
 D. 비즈니스 성과를 지원하도록 회사를 구성합니다.
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -421,7 +436,8 @@ C. S3 빙하 심층 아카이브
 
 D. S3 One Zone-Infrequent Access(S3 One Zone-IA)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -446,7 +462,8 @@ C. 보안 그룹
 
 D. AWS 방화벽 관리자
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -471,7 +488,8 @@ C. 메모리 최적화
 
 D. 최적화된 인스턴스 계산
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -496,7 +514,8 @@ D. PostgreSQL
 
 E. MariaDB
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C, D**
 
 
@@ -519,7 +538,8 @@ C. 인터넷 트래픽에 대역폭 제한을 부과합니다.
 
 D. Amazon EC2 인스턴스 전반에서 인터넷 트래픽의 부하를 분산하려면
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B**
 
 
@@ -544,7 +564,8 @@ D. 서비스 할당량
 
 E. 계정 활동 기록
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B, D**
 
 
@@ -576,7 +597,8 @@ C. S3 One Zone-Infrequent Access(S3 One Zone-IA)
 
 D. S3 지능형 계층화
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -599,7 +621,8 @@ C. 아마존 FSx
 
 D. Amazon Elastic Block Store(Amazon EBS)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
@@ -622,7 +645,8 @@ C. IAM 역할
 
 D. IAM 사용자 SSH 키
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -647,7 +671,8 @@ D. 여유 용량이 있는 리소스를 확장하고 자동 크기 조정을 제
 
 E. 사용자 수에 따라 인프라를 확장합니다.
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A, C (또는 A, E)**
 
 
@@ -675,7 +700,8 @@ C. 규모의 경제성이 높음
 
 D. 컴퓨팅 용량에 대한 추측 없음
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -698,7 +724,8 @@ C. 클라우드 네이티브
 
 D. 하이브리드
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -721,7 +748,8 @@ C. 네트워크 ACL
 
 D. 보안 그룹
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
@@ -746,7 +774,8 @@ C. 아마존 RDS
 
 D. 아마존 타임스트림
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B**
 
 
@@ -769,7 +798,8 @@ C. 다중 가용성 영역
 
 D. 지역 에지 캐시
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -794,7 +824,8 @@ C. 아마존 RDS
 
 D. 아마존 레드쉬프트
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -817,7 +848,8 @@ C. 실패를 위한 디자인
 
 D. 병렬적으로 생각해보세요
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -840,7 +872,8 @@ C. AWS 아웃포스트
 
 D. AWS Fargate
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -863,7 +896,8 @@ C. AWS 애플리케이션 컴포저
 
 D. AWS App Runner
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -886,7 +920,8 @@ C. 단일 데이터 센터에 있는 하나 이상의 물리적 호스트.
 
 D. 여러 데이터 센터에 있는 두 개 이상의 물리적 호스트.
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
@@ -909,7 +944,8 @@ C. IAM 자격 증명 보고서
 
 D. Amazon CloudWatch
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -936,7 +972,8 @@ D. AWS 포럼
 
 E. AWS 강의실 교육
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B, E**
 
 
@@ -964,7 +1001,8 @@ C. Amazon Elastic Block Store(Amazon EBS)
 
 D. Amazon S3
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -989,7 +1027,8 @@ C. S3 버전 관리
 
 D. S3 액세스 포인트
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -1014,7 +1053,8 @@ D. AWS 사이트 간 VPN
 
 E. Amazon Elastic Container Service(Amazon ECS)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B, C**
 
 
@@ -1039,7 +1079,8 @@ C. Amazon Athena
 
 D. Amazon Kinesis 데이터 스트림
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: C**
 
 
@@ -1063,7 +1104,8 @@ C. 네트워크 로드 밸런서
 
 D. Amazon EC2 자동 확장
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B**
 
 
@@ -1092,7 +1134,8 @@ D. 저축 계획
 
 E. 전용 호스트
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B, D**
 
 
@@ -1118,7 +1161,8 @@ C. S3 Standard-Infrequent Access(S3 Standard-IA)
 
 D. S3 One Zone-Infrequent Access(S3 One Zone-IA)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
@@ -1142,7 +1186,8 @@ C. 애플리케이션 로드 밸런서가 있는 Amazon EC2 인스턴스
 
 D. Amazon Elastic File System(Amazon EFS)
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: B**
 
 
@@ -1165,7 +1210,8 @@ C. AWS 데이터 동기화
 
 D. AWS 코드스타
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: D**
 
 
@@ -1190,7 +1236,8 @@ C. 아마존 폴리
 
 D. 아마존 렉스
 
-<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+<details markdown=1>
+<summary markdown='span'>정답 및 설명</summary>
 **정답: A**
 
 
