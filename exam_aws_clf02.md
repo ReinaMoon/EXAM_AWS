@@ -1089,7 +1089,7 @@ D. 저축 계획
 
 E. 전용 호스트
 
-<details markdown=1><summary markdown='span'>정답及說明</summary>
+<details markdown=1><summary markdown='span'>정답</summary>
 정답: <b>B</b>, <b>D</b>
 
 
