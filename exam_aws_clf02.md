@@ -1217,7 +1217,9 @@ C. 루트 사용자는 AWS 계정이 생성될 때 사용할 수 있는 첫 번�
 D. 루트 사용자의 비밀번호는 변경할 수 없습니다.
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>C</b>
+
 
 설명:
 
@@ -1235,383 +1237,556 @@ D. 루트 사용자의 비밀번호는 변경할 수 없습니다.
 ---
 
 49. 어떤 AWS 기능 또는 리소스가 소프트웨어 및 보안 요구 사항이 미리 패키지된 배포 가능한 Amazon EC2 인스턴스 템플릿입니까?
+
 A. Amazon Elastic Block Store(Amazon EBS) 볼륨
+
 B. AWS CloudFormation 템플릿
+
 C. Amazon Elastic Block Store(Amazon EBS) 스냅샷
+
 D. Amazon 머신 이미지(AMI)
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>D</b>
+
 
 설명:
 
 <b>D (정답):</b> AMI(Amazon Machine Image)는 EC2 인스턴스를 시작하는 데 필요한 정보를 제공하는 템플릿입니다. 여기에는 운영 체제(OS), 애플리케이션 서버, 애플리케이션 등이 포함됩니다.
+
 <b>B (오답):</b> AWS CloudFormation 템플릿은 EC2 인스턴스뿐만 아니라 VPC, 데이터베이스, 로드 밸런서 등 전체 AWS 인프라를 코드로 정의하고 배포하는 데 사용됩니다. 범위가 훨씬 더 넓습니다.
+
 </details>
 
 
 ---
 
 50. 다음 중 AWS Well-Architected Framework의 핵심 요소는 무엇입니까? (두 가지 선택)
+
 A. 가용성
+
 B. 신뢰성
+
 C. 확장성
+
 D. 반응형 디자인
+
 E. 운영 우수성
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>B</b>, <b>E</b>
+
 
 설명:
 
 <b>B, E (정답):</b> AWS Well-Architected Framework는 6개의 핵심 요소(Pillars)로 구성됩니다. 그중 두 가지는 신뢰성과 운영 우수성입니다. 나머지 4개는 보안, 성능 효율성, 비용 최적화, 지속 가능성입니다.
+
 <b>A (오답):</b> 가용성은 신뢰성 기둥에 포함되는 하위 개념입니다.
+
 <b>C (오답):</b> 확장성은 성능 효율성 기둥에 포함되는 하위 개념입니다.
+
 </details>
 
 
 ---
 
 51. 어떤 회사는 중단을 견딜 수 있는 작업 부하를 처리하기 위한 Amazon EC2 인스턴스가 필요합니다. 온디맨드 가격에 비해 가장 큰 할인율로 이러한 요구 사항을 충족하는 EC2 인스턴스 구매 옵션은 무엇입니까?
+
 A. 스팟 인스턴스
+
 B. 변환 가능한 예약 인스턴스
+
 C. 표준 예약 인스턴스
+
 D. 전용 호스트
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>A</b>
+
 
 설명:
 
 <b>A (정답):</b> "중단을 견딜 수 있는" 그리고 "가장 큰 할인율" 이 두 가지는 스팟 인스턴스를 가리키는 핵심 키워드입니다. 스팟 인스턴스는 AWS의 유휴 컴퓨팅 용량을 활용하여 온디맨드 요금보다 최대 90%까지 저렴하게 제공되지만, AWS가 해당 용량을 필요로 할 경우 중단될 수 있습니다.
+
 <b>C (오답):</b> 표준 예약 인스턴스는 안정적이고 중단되지 않는 워크로드에 큰 할인을 제공하지만, 할인율이 스팟 인스턴스만큼 높지는 않습니다.
+
 </details>
 
 
 ---
 
 52. 대규모로 밀리초 미만의 지연 시간을 제공하는 키-값 데이터베이스인 AWS 서비스는 무엇입니까?
+
 A. Amazon DynamoDB
+
 B. 아마존 오로라
+
 C. Amazon DocumentDB(MongoDB와 호환)
+
 D. 아마존 넵튠
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>A</b>
+
 
 설명:
 
 <b>A (정답):</b> "키-값 데이터베이스", "밀리초 미만 지연 시간", "대규모"는 Amazon DynamoDB의 대표적인 특징입니다. DynamoDB는 어떤 규모에서든 빠르고 일관된 성능을 제공하는 NoSQL 데이터베이스입니다.
+
 <b>B (오답):</b> Amazon Aurora는 고성능 **관계형 데이터베이스**입니다.
+
 </details>
 
 
 ---
 
 53. Amazon S3에 저장된 객체를 보호하는 데 사용할 수 있는 암호화 유형은 무엇입니까? (2개 선택)
+
 A. AmazonS3 관리 암호화 키(SSE-S3)를 사용한 서버 측 암호화
+
 B. AWS KMS 관리 키를 사용한 서버 측 암호화(SSE-KMS)
+
 C. TLS
+
 D. SSL
+
 E. 투명한 데이터 암호화(TDE)
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>A</b>, <b>B</b>
+
 
 설명:
 
 <b>A, B (정답):</b> S3에 저장된 데이터(Encryption at rest, 미사용 데이터 암호화)를 보호하기 위해 서버 측 암호화(SSE)를 사용합니다. SSE-S3는 S3가 키를 관리하고, SSE-KMS는 AWS KMS를 통해 키를 관리하여 더 세분화된 제어와 감사 기능을 제공합니다.
+
 <b>C, D (오답):</b> TLS/SSL은 클라이언트와 서버 간에 **전송 중인 데이터(Encryption in transit)**를 암호화하는 프로토콜입니다. S3에 이미 저장된 객체를 보호하는 것과는 목적이 다릅니다.
+
 </details>
 
 
 ---
 
 54. 어떤 AWS 서비스가 사용자가 여러 Lambda 함수 세트에 대한 워크플로를 조율하고 프로세스를 조율하는 데 도움을 주도록 설계되었습니까?
+
 A. Amazon DynamoDB
+
 B. AWS 코드 파이프라인
+
 C. AWS 배치
+
 D. AWS Step Functions
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>D</b>
+
 
 설명:
 
 <b>D (정답):</b> AWS Step Functions는 여러 Lambda 함수나 다른 AWS 서비스들을 시각적인 워크플로로 **조율(Orchestration)**하는 서버리스 서비스입니다. "A 함수 실행 후 성공하면 B 함수, 실패하면 C 함수 실행"과 같은 복잡한 비즈니스 로직을 상태 머신으로 관리합니다.
+
 <b>B (오답):</b> AWS CodePipeline은 소스 코드 변경 시 자동으로 빌드, 테스트, 배포하는 CI/CD 파이프라인을 자동화하는 서비스입니다.
+
 </details>
 
 
 ---
 
 55. 한 회사가 타사 소프트웨어 서비스(SaaS) 애플리케이션에 대한 액세스 및 권한을 관리하려고 합니다. 이 회사는 최종 사용자가 할당된 계정 및 AWS 클라우드 애플리케이션에 액세스할 수 있는 포털을 원합니다. 이러한 요구 사항을 충족하기 위해 회사는 어떤 AWS 서비스를 사용해야 합니까?
+
 A. Amazon Cognito
+
 B. AWS IAM Identity Center(AWS Single Sign-On)
+
 C. AWS ID 및 액세스 관리(IAM)
+
 D. Microsoft Active Directory용 AWS 디렉터리 서비스
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>B</b>
+
 
 설명:
 
 <b>B (정답):</b> AWS IAM Identity Center (구 AWS SSO)는 여러 AWS 계정 및 비즈니스 클라우드 애플리케이션(SaaS)에 대한 **중앙 관리형 Single Sign-On (SSO)** 액세스를 제공합니다. "회사 직원"이 "여러 앱과 AWS 계정"에 한 번의 로그인으로 접근하는 시나리오는 IAM Identity Center의 핵심 용도입니다.
+
 <b>A (오답):</b> Amazon Cognito는 개발하는 웹/모바일 앱의 **고객(외부 사용자)**들이 회원가입, 로그인하는 기능을 제공하는 서비스입니다.
+
 </details>
 
 
 ---
 
 56. 한 회사가 타사 ID 공급자(IdP)를 사용합니다. 이 회사는 다른 로그인 자격 증명을 요구하지 않고 직원들에게 AWS 계정 및 서비스에 대한 액세스 권한을 제공하고자 합니다. 어떤 AWS 서비스가 이 요구 사항을 충족할까요?
+
 A. Amazon Cognito
+
 B. AWS 리소스 액세스 관리자(AWS RAM)
+
 C. AWS 디렉터리 서비스
+
 D. AWS IAM ID 센터
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>D</b>
+
 
 설명:
 
 <b>D (정답):</b> AWS IAM Identity Center는 Okta, Azure AD와 같은 **타사 IdP**와 연동하여 직원들이 기존 회사 자격 증명으로 AWS 계정에 **SSO(Single Sign-On)**할 수 있도록 지원합니다.
+
 <b>A (오답):</b> Amazon Cognito는 개발하는 앱의 고객 인증용입니다.
+
 </details>
 
 
 ---
 
 57. 어떤 회사에서는 사업부에서 더 이상 액세스할 필요가 없는 Amazon S3 데이터를 보관해야 합니다. 어떤 S3 스토리지 클래스가 이 요구 사항을 가장 비용 효율적으로 충족할까요?
+
 A. S3 Glacier 즉시 검색
+
 B. S3 Glacier 유연한 검색
+
 C. S3 빙하 심층 아카이브
+
 D. S3 One Zone-Infrequent Access(S3 One Zone-IA)
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>C</b>
+
 
 설명:
 
 <b>C (정답):</b> S3 Glacier Deep Archive는 **가장 저렴한** 스토리지 비용을 제공하며, 수년에 한두 번 액세스하는 데이터의 **장기 보관(아카이빙)**을 위해 설계되었습니다. "보관"과 "가장 비용 효율적"이라는 키워드는 Deep Archive를 가리킵니다.
+
 <b>A (오답):</b> S3 Glacier Instant Retrieval은 Deep Archive보다 스토리지 비용이 비싸지만 데이터 검색 속도가 더 빠릅니다.
+
 </details>
 
 
 ---
 
 58. 회사에서는 특정 Amazon EC2 인스턴스에 보안 규칙을 적용해야 합니다. 어떤 AWS 서비스나 기능이 이 기능을 제공합니까?
+
 A. AWS 쉴드
+
 B. 네트워크 ACL
+
 C. 보안 그룹
+
 D. AWS 방화벽 관리자
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>C</b>
+
 
 설명:
 
 <b>C (정답):</b> 보안 그룹(Security Group)은 **개별 EC2 인스턴스**에 연결되어 인바운드 및 아웃바운드 트래픽을 제어하는 상태 저장(stateful) 가상 방화벽 역할을 합니다.
+
 <b>B (오답):</b> 네트워크 ACL은 **서브넷 수준**에서 작동하며, 해당 서브넷 내의 모든 인스턴스에 영향을 미치는 상태 비저장(stateless) 방화벽입니다.
+
 </details>
 
 
 ---
 
 59. Amazon Aurora는 어떤 데이터베이스 엔진을 지원합니까? (2개 선택)
+
 A. 오라클
+
 B. 마이크로소프트 SQL 서버
+
 C. MySQL
+
 D. PostgreSQL
+
 E. MariaDB
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>C</b>, <b>D</b>
+
 
 설명:
 
 <b>C, D (정답):</b> Amazon Aurora는 클라우드에 맞게 구축된 관계형 데이터베이스로, **MySQL** 및 **PostgreSQL**과 완벽하게 호환됩니다. 기존 애플리케이션을 거의 변경 없이 마이그레이션할 수 있습니다.
+
 </details>
 
 
 ---
 
 60. 사용자는 Amazon EC2 인스턴스에서 실행되는 애플리케이션이 다른 AWS 서비스를 호출할 수 있도록 허용하려고 합니다. 허용된 액세스는 안전해야 합니다. 어떤 AWS 서비스 또는 기능을 사용해야 합니까?
+
 A. 보안 그룹
+
 B. AWS 방화벽 관리자
+
 C. IAM 역할
+
 D. IAM 사용자 SSH 키
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>C</b>
+
 
 설명:
 
 <b>C (정답):</b> **IAM 역할(Role)**은 EC2 인스턴스와 같은 AWS 리소스에 권한을 부여하는 가장 안전하고 권장되는 방법입니다. 역할은 임시 보안 자격 증명을 사용하여 다른 서비스에 액세스하므로, 액세스 키와 같은 장기 자격 증명을 코드에 하드코딩할 필요가 없습니다.
+
 <b>A (오답):</b> 보안 그룹은 네트워크 트래픽을 제어하며, 서비스 호출 권한과는 관련이 없습니다.
+
 </details>
 
 
 ---
 
 61. 한 회사는 지속 가능성 영역에 대한 목표를 달성하는 방법을 파악하기 위해 사용자 행동 패턴을 수집하고 있습니다. 이러한 목표를 달성하기 위해 회사가 구현해야 할 모범 사례는 무엇입니까? (2개 선택)
+
 A. 사용자 부하에 따라 인프라를 확장합니다.
+
 B. 작업 부하와 사용자 위치 간의 지리적 거리를 최대화합니다.
+
 C. 사용되지 않는 자산의 생성 및 유지 관리를 제거합니다.
+
 D. 여유 용량이 있는 리소스를 확장하고 자동 크기 조정을 제거합니다.
+
 E. 사용자 수에 따라 인프라를 확장합니다.
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>A</b>, <b>C</b>
+
 
 설명:
 
 <b>A, C (정답):</b> AWS Well-Architected Framework의 지속 가능성 기둥은 낭비를 줄이고 활용률을 극대화하는 것을 목표로 합니다. **수요에 맞게 공급을 조정(A, E)**하고, **사용하지 않는 자산을 제거(C)**하는 것이 핵심 원칙입니다.
+
 <b>D (오답):</b> 여유 용량을 과도하게 두고 자동 크기 조정을 제거하는 것은 과잉 프로비저닝으로 이어져 지속 가능성에 반하는 행위입니다.
+
 </details>
 
 
 ---
 
 62. 어떤 회사는 VPC에서 Amazon EC2 인스턴스를 실행하고 있습니다. 전자상거래 회사는 Amazon EC2에서 실행되는 웹 서버를 관리하기 위해 Amazon EC2 Auto Scaling 그룹을 사용하고 있습니다. 이 아키텍처는 어떤 AWS Well-Architected Framework 모범 사례를 따르나요?
+
 A. 작업 부하를 확보하세요
+
 B. 인프라 구성요소 분리
+
 C. 실패를 위한 디자인
+
 D. 병렬적으로 생각해보세요
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>C</b>
+
 
 설명:
 
 <b>C (정답):</b> Auto Scaling 그룹은 상태 확인에 실패한 인스턴스를 자동으로 종료하고 새 인스턴스로 교체합니다. 이는 구성 요소의 장애가 전체 시스템의 장애로 이어지지 않도록 하는 **실패를 위한 설계(Design for Failure)**의 대표적인 예시이며, **신뢰성(Reliability)** 기둥의 핵심 원칙입니다.
+
 </details>
 
 
 ---
 
 63. 회사에서는 AWS 지출 목표를 설정하고 목표에 따른 비용을 추적하려고 합니다. 이러한 요구 사항을 충족하기 위해 회사는 어떤 AWS 도구나 기능을 사용해야 합니까?
+
 A. AWS 비용 탐색기
+
 B. AWS 예산
+
 C. AWS 비용 및 사용 보고서
+
 D. 저축 계획
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>B</b>
+
 
 설명:
 
 <b>B (정답):</b> AWS Budgets는 사용자 지정 비용 및 사용량 **예산을 설정**하고, 실제 또는 예측 비용이 예산을 초과할 때 **알림을 받도록** 하는 기능입니다. "목표 설정 및 추적"이라는 요구사항에 가장 부합합니다.
+
 <b>A (오답):</b> AWS Cost Explorer는 과거의 비용을 시각화하고 **분석**하는 도구입니다. 예산을 설정하고 알림을 보내는 기능은 없습니다.
+
 </details>
 
 
 ---
 
 64. 어떤 회사에서는 CI/CD(지속적인 통합/지속적인 배포) 파이프라인을 신속하게 구현하려고 합니다. 어떤 AWS 서비스가 이 요구 사항을 충족할까요?
+
 A. AWS 구성
+
 B. Amazon Cognito
+
 C. AWS 데이터 동기화
+
 D. AWS 코드스타
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>D</b>
+
 
 설명:
 
 <b>D (정답):</b> **AWS CodeStar**는 AWS에서 애플리케이션을 신속하게 개발, 빌드 및 배포하기 위한 통합 UI를 제공합니다. 프로젝트 템플릿을 사용하여 전체 **CI/CD 파이프라인**을 몇 분 만에 설정할 수 있습니다.
+
 <b>A (오답):</b> AWS Config는 AWS 리소스의 구성을 평가, 감사 및 검사하는 서비스입니다.
+
 </details>
 
 
 ---
 
 65. 아래 옵션 중 AWS의 안정성과 관련된 것은 무엇입니까? (2개 선택)
+
 A. 모든 AWS 리소스에 최소 권한의 원칙을 적용합니다.
+
 B. 수요를 충족하기 위해 자동으로 새로운 리소스를 프로비저닝합니다.
+
 C. 모든 AWS 서비스는 글로벌 서비스로 간주되며, 이러한 설계는 고객이 국제 사용자에게 서비스를 제공하는 데 도움이 됩니다.
+
 D. 문제 발생 시 고객에게 보상을 제공합니다.
+
 E. 실패로부터 빠르게 복구할 수 있는 능력.
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>B</b>, <b>E</b>
+
 
 설명:
 
 <b>B, E (정답):</b> AWS Well-Architected Framework의 **신뢰성(Reliability)** 기둥에 대한 질문입니다. 신뢰성은 장애를 견디고 자동으로 복구하는 능력을 의미합니다. 수요에 따라 리소스를 자동으로 프로비저닝하는 것(Auto Scaling)과 실패로부터 빠르게 복구하는 것이 신뢰성의 핵심 원칙입니다.
+
 <b>A (오답):</b> 최소 권한 원칙은 **보안** 기둥에 해당합니다.
+
 </details>
 
 
 ---
 
 66. AWS Snowball은 무엇을 제공합니까? (두 가지 선택)
+
 A. 고객이 로컬로 데이터를 처리할 수 있는 내장 컴퓨팅 기능.
+
 B. 고객이 솔루션을 운영하는 데 필요한 타사 소프트웨어 솔루션 카탈로그입니다.
+
 C. 온프레미스 환경과 AWS 클라우드 간의 하이브리드 클라우드 스토리지.
+
 D. 엄청나게 많은 양의 데이터를 AWS로 옮길 수 있는 엑사바이트 규모의 데이터 전송 서비스입니다.
+
 E. AWS에서 대량의 데이터를 안전하게 송수신합니다.
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>A</b>, <b>E</b>
+
 
 설명:
 
 <b>A, E (정답):</b> Snowball의 근본적인 목적은 네트워크를 통해 전송하기 어려운 **대량의 데이터를 물리적으로 안전하게 AWS로 보내거나(Import) AWS에서 받는(Export) 것(E)**입니다. 특히 Snowball **Edge** 모델은 내장된 컴퓨팅 기능(A)을 제공하여 데이터 수집 지점에서 간단한 데이터 처리가 가능합니다.
+
 <b>D (오답):</b> 엑사바이트 규모의 데이터 전송 서비스는 **Snowmobile**입니다.
+
 </details>
 
 
 ---
 
 67. 한 회사가 AWS Enterprise Support 플랜을 사용하고 있습니다. 이 회사는 청구 및 계정 문의에 대해 빠르고 효율적인 지원을 원합니다. 다음 중 어떤 방법을 사용해야 할까요?
+
 A. AWS 상태 대시보드.
+
 B. AWS 지원 컨시어지.
+
 C. AWS 고객 서비스.
+
 D. AWS 운영 지원.
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>B</b>
+
 
 설명:
 
 <b>B (정답):</b> **AWS Support Concierge(컨시어지) 팀**은 **Enterprise Support** 플랜 고객에게만 제공되는 서비스로, **결제 및 계정 관련 문의**를 전문적으로 처리하는 전문가 팀입니다.
+
 <b>C (오답):</b> 일반적인 고객 서비스보다 훨씬 전문적이고 신속한 응대를 제공하는 것이 컨시어지 팀의 특징입니다.
+
 </details>
 
 
 ---
 
 68. "단일 장애점"을 처리할 때 모범 사례를 구현하려면 장애 감지 및 대응 모두에서 최대한의 자동화를 구축해야 합니다. 다음 AWS 서비스 중 어떤 것이 도움이 될까요? (두 가지 선택)
+
 A. 엘비.
+
 B. 자동 크기 조정.
+
 C. 아마존 아테나.
+
 D. ECR.
+
 E. 아마존 EC2
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>A</b>, <b>B</b>
+
 
 설명:
 
 <b>A, B (정답):</b> 단일 장애점(Single Point of Failure, SPOF)을 제거하고 자동화된 장애 복구를 구현하는 것은 신뢰성의 핵심입니다. **Elastic Load Balancer(ELB)**는 여러 인스턴스로 트래픽을 분산하고 비정상 인스턴스를 감지하며(A), **Auto Scaling**은 감지된 비정상 인스턴스를 자동으로 교체(B)하여 시스템을 자동 복구합니다.
+
 </details>
 
 
 ---
 
 69. 한 회사가 AWS에서 교육 웹사이트를 호스팅하려고 합니다. 비디오 강좌는 전 세계에 스트리밍될 예정입니다. 다음 중 빠른 전송 속도를 달성하는 데 도움이 되는 AWS 서비스는 무엇입니까?
+
 A. 아마존 SNS
+
 B. Amazon Kinesis 비디오 스트림.
+
 C. AWS 클라우드포메이션
+
 D. 아마존 클라우드프론트.
 
 <details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
 정답: <b>D</b>
+
 
 설명:
 
 <b>D (정답):</b> "전 세계" 사용자에게 "비디오 스트리밍"과 같은 대용량 콘텐츠를 "빠른 전송 속도"로 제공하기 위한 가장 완벽한 솔루션은 **Amazon CloudFront(CDN)**입니다. CloudFront는 사용자와 가장 가까운 엣지 로케이션에 콘텐츠를 캐싱하여 지연 시간을 최소화합니다.
+
 <b>B (오답):</b> Kinesis Video Streams는 비디오를 실시간으로 수집, 처리, 분석하는 서비스로, 단순한 스트리밍 전송 속도 개선과는 목적이 다릅니다.
+
 </details>
 
 
