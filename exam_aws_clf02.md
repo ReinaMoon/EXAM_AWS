@@ -1791,3 +1791,273 @@ D. 아마존 클라우드프론트.
 
 
 ---
+
+70. 한 개발팀이 자주 사용하는 Docker 컨테이너 이미지를 저장하고 관리할 안전하고 확장 가능한 장소가 필요합니다. 어떤 AWS 서비스를 사용해야 할까요?
+
+A. Amazon S3
+
+B. Amazon ECR (Elastic Container Registry)
+
+C. Amazon EBS (Elastic Block Store)
+
+D. AWS CodeCommit
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>B</b>
+
+설명:
+
+<b>B (정답):</b> 문제의 핵심 키워드는 **"Docker 컨테이너 이미지"**입니다. **Amazon ECR**은 Docker 이미지를 저장, 관리, 배포하기 위해 특별히 설계된 완전관리형 컨테이너 레지스트리 서비스입니다.
+
+<b>A (오답):</b> Amazon S3는 파일을 저장하는 객체 스토리지이지만, 컨테이너 이미지의 버전 관리, 접근 제어 등 전문적인 관리 기능은 ECR에 비해 부족합니다.
+
+<b>C (오답):</b> Amazon EBS는 EC2 인스턴스에 연결하여 사용하는 가상 하드 디스크입니다.
+
+<b>D (오답):</b> AWS CodeCommit은 소스 코드를 저장하는 Git 기반의 리포지토리 서비스입니다.
+
+</details>
+
+
+---
+
+71. 금융 서비스 회사가 규제 준수를 위해, 지난 5년간 누가 AWS 리소스에 접근하고 어떤 작업을 수행했는지 모든 기록을 추적하고 감사할 수 있어야 합니다. 이 요구사항을 충족하는 서비스는 무엇입니까?
+
+A. Amazon CloudWatch
+
+B. AWS Trusted Advisor
+
+C. AWS Config
+
+D. AWS CloudTrail
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>D</b>
+
+설명:
+
+<b>D (정답):</b> **"누가, 언제, 무엇을 했는지"**에 대한 모든 계정 활동(API 호출)을 기록하고 추적하여 **감사 증거**로 활용하는 것은 **AWS CloudTrail**의 핵심 기능입니다. 규정 준수 요구사항을 충족하는 데 필수적인 서비스입니다.
+
+<b>A (오답):</b> Amazon CloudWatch는 리소스의 **성능 지표(CPU, 메모리 등)를 모니터링**하고 경보를 생성하는 서비스입니다.
+
+<b>C (오답):</b> AWS Config는 리소스의 **구성 변경 이력**을 추적하는 서비스로, "어떻게 바뀌었는가"에 초점을 맞춥니다.
+
+</details>
+
+
+---
+
+72. 한 회사가 전 세계에 분산된 사용자들에게 웹 애플리케이션의 응답 시간을 최소화하려고 합니다. 사용자가 어떤 지역에서 접속하든 가장 가까운 AWS 네트워크 지점에서 트래픽을 처리하여 지연 시간을 줄여주는 서비스는 무엇입니까?
+
+A. Amazon VPC
+
+B. AWS Direct Connect
+
+C. Amazon CloudFront
+
+D. AWS Global Accelerator
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>D</b>
+
+설명:
+
+<b>D (정답):</b> 이 문제의 핵심은 정적 콘텐츠 캐싱을 넘어, **애플리케이션의 동적 트래픽 경로 자체를 최적화**하는 것입니다. **AWS Global Accelerator**는 AWS의 글로벌 네트워크를 사용하여 사용자의 트래픽을 가장 성능이 좋은 최적의 AWS 엔드포인트로 지능적으로 라우팅하여 지연 시간을 줄여줍니다.
+
+<b>C (오답):</b> Amazon CloudFront도 성능을 향상시키지만, 주로 콘텐츠를 **엣지 로케이션에 캐싱**하는 방식으로 작동합니다. Global Accelerator는 네트워크 계층에서 트래픽의 경로를 최적화하는 데 더 중점을 둡니다.
+
+</details>
+
+
+---
+
+73. 한 스타트업이 초기 비용을 최소화하면서, 트래픽 예측이 불가능한 새로운 웹 애플리케이션을 배포하려고 합니다. 수요가 급증하면 자동으로 확장되고, 유휴 시간에는 비용이 거의 발생하지 않는 서버리스 컴퓨팅 모델을 원합니다. 어떤 서비스 조합이 가장 비용 효율적일까요?
+
+A. Amazon EC2 와 Auto Scaling
+
+B. AWS Lambda 와 Amazon API Gateway
+
+C. AWS Fargate 와 Application Load Balancer
+
+D. Amazon Lightsail
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>B</b>
+
+설명:
+
+<b>B (정답):</b> **"서버리스", "트래픽 예측 불가능", "유휴 시 비용 최소화"**라는 키워드는 **AWS Lambda**와 **Amazon API Gateway** 조합을 가리킵니다. API Gateway가 요청을 받아 Lambda 함수를 호출하며, 요청이 있을 때만 코드가 실행되고 비용이 발생하므로 가장 비용 효율적인 모델입니다.
+
+<b>A (오답):</b> Amazon EC2는 서버 기반 모델로, 트래픽이 전혀 없어도 최소한의 인스턴스는 계속 실행되어야 하므로 유휴 시간에도 비용이 발생합니다.
+
+<b>C (오답):</b> AWS Fargate도 서버리스 컨테이너 모델이지만, 일반적으로 간단한 API 요청-응답 모델에는 Lambda가 더 비용 효율적입니다.
+
+</details>
+
+
+---
+
+74. 사용자가 업로드한 원본 이미지를 기반으로, 여러 가지 크기(썸네일, 중간 크기, 고화질)의 이미지를 자동으로 생성하는 작업을 수행하려고 합니다. 이 작업을 트리거하고 실행하는 데 가장 적합한 서비스는 무엇입니까?
+
+A. Amazon S3 이벤트 알림을 사용하여 AWS Lambda 함수를 실행
+
+B. Amazon EC2 인스턴스에서 주기적으로 S3 버킷을 스캔
+
+C. Amazon SQS를 사용하여 이미지 처리 작업을 대기열에 추가
+
+D. AWS Step Functions를 사용하여 이미지 처리 워크플로우를 조정
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>A</b>
+
+설명:
+
+<b>A (정답):</b> 이것은 이벤트 기반 서버리스 아키텍처의 가장 대표적인 사례입니다. **S3에 객체가 생성되는 이벤트(트리거)**가 **Lambda 함수를 자동으로 호출**하여 이미지 처리 코드를 실행하는 방식이 가장 효율적이고 이상적입니다.
+
+<b>B (오답):</b> EC2 인스턴스를 계속 실행하며 주기적으로 스캔하는 것은 비효율적이고 비용이 많이 드는 방식입니다.
+
+<b>D (오답):</b> Step Functions는 여러 단계의 복잡한 워크플로우를 조정하는 데 사용되므로, 단순한 이미지 처리 작업에는 과도한 솔루션입니다.
+
+</details>
+
+
+---
+
+75. 공동 책임 모델(Shared Responsibility Model)에 따르면, 다음 중 전적으로 고객의 책임에 해당하는 것은 무엇입니까? (2개 선택)
+
+A. 데이터 센터의 물리적 보안
+
+B. EC2 인스턴스의 게스트 운영체제(OS) 패치
+
+C. AWS 글로벌 인프라의 가용성
+
+D. VPC 내부의 데이터 암호화
+
+E. Amazon RDS 데이터베이스 소프트웨어 업데이트
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>B, D</b>
+
+설명:
+
+<b>B (정답):</b> EC2 인스턴스(IaaS)를 사용할 때, 그 안의 **게스트 OS(Windows, Linux 등)와 애플리케이션에 대한 패치 및 관리**는 전적으로 **고객의 책임**입니다.
+
+<b>D (정답):</b> "클라우드 안의 보안"은 고객 책임입니다. VPC 내부의 네트워크 트래픽이나 EBS 볼륨에 저장된 **데이터를 암호화하는 것**은 **고객의 책임**입니다.
+
+<b>A, C (오답):</b> 데이터 센터와 글로벌 인프라의 물리적 보안 및 가용성은 **AWS의 책임**입니다.
+
+<b>E (오답):</b> Amazon RDS는 관리형 서비스(PaaS)이므로, 기본 데이터베이스 **소프트웨어의 업데이트 및 패치**는 **AWS가 책임**집니다.
+
+</details>
+
+
+---
+
+76. AWS 환경을 지속적으로 모니터링하여, 사용하지 않는 리소스나 보안 그룹의 과도하게 개방된 포트와 같이 비용 낭비 및 보안 위험을 식별하고 개선 권장 사항을 제공하는 서비스는 무엇입니까?
+
+A. AWS Budgets
+
+B. AWS Cost Explorer
+
+C. AWS Trusted Advisor
+
+D. Amazon Inspector
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>C</b>
+
+설명:
+
+<b>C (정답):</b> AWS 환경을 자동으로 점검하여 **비용 최적화, 보안, 성능 등에 대한 모범 사례 "권장 사항"**을 제공하는 개인 컨설턴트 역할의 서비스는 **AWS Trusted Advisor**입니다.
+
+<b>A (오답):</b> AWS Budgets는 설정한 예산을 초과할 것 같을 때 **알림**을 보내는 서비스입니다.
+
+<b>D (오답):</b> Amazon Inspector는 EC2 인스턴스 내의 **소프트웨어 취약점을 분석**하는 서비스입니다.
+
+</details>
+
+
+---
+
+77. 온프레미스 데이터 센터와 AWS VPC 간에 안정적이고 일관된 성능을 제공하는 프라이빗 네트워크 연결을 설정하려고 합니다. 공용 인터넷을 통하지 않는 전용 회선을 사용하고 싶을 때 어떤 서비스를 선택해야 할까요?
+
+A. AWS Site-to-Site VPN
+
+B. AWS Client VPN
+
+C. AWS Direct Connect
+
+D. VPC Peering
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>C</b>
+
+설명:
+
+<b>C (정답):</b> **"공용 인터넷을 통하지 않고", "안정적이고 일관된 성능"**을 제공하는 **"전용 사설 회선"**을 구축하는 서비스는 **AWS Direct Connect**입니다.
+
+<b>A (오답):</b> AWS Site-to-Site VPN은 **공용 인터넷**을 통해 암호화된 터널을 만들어 연결하는 방식입니다.
+
+<b>D (오답):</b> VPC Peering은 두 개의 AWS VPC를 비공개적으로 연결하는 기술입니다.
+
+</details>
+
+
+---
+
+78. 한 회사에서 여러 부서가 각자의 AWS 계정을 사용하고 있습니다. 회사는 모든 계정의 비용을 하나의 청구서로 통합하고, 모든 계정에 동일한 보안 정책을 중앙에서 적용하고 싶어합니다. 어떤 서비스를 사용해야 할까요?
+
+A. AWS IAM (Identity and Access Management)
+
+B. AWS Control Tower
+
+C. AWS Organizations
+
+D. AWS Resource Access Manager (RAM)
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>C</b>
+
+설명:
+
+<b>C (정답):</b> **"여러 AWS 계정"**을 **중앙에서 관리**하고, **"통합 결제(Consolidated Billing)"**를 설정하며, **서비스 제어 정책(SCP)**을 통해 보안 규칙을 일괄 적용하는 것은 **AWS Organizations**의 핵심 기능입니다.
+
+<b>A (오답):</b> AWS IAM은 **단일 계정 내**의 사용자 및 권한을 관리하는 서비스입니다.
+
+<b>B (오답):</b> AWS Control Tower는 Organizations를 기반으로 모범 사례가 적용된 다중 계정 환경을 더 쉽게 설정해주는 서비스로, 더 상위의 개념입니다.
+
+</details>
+
+---
+
+79. 데이터 분석팀이 S3 데이터 레이크에 저장된 대용량 CSV 파일에 대해, 별도의 서버를 구축하거나 데이터를 다른 곳으로 로드할 필요 없이 표준 SQL을 사용하여 즉시 대화형 쿼리를 실행하고 싶어합니다. 어떤 서비스가 이 요구사항을 충족합니까?
+
+A. Amazon Redshift
+
+B. Amazon Athena
+
+C. Amazon EMR
+
+D. AWS Glue
+
+<details markdown=1><summary markdown='span'>정답 및 설명</summary>
+
+정답: <b>B</b>
+
+설명:
+
+<b>B (정답):</b> **"S3에 있는 데이터를 그대로(로드 없이)"**, **"표준 SQL"**을 사용하여 **"즉시 대화형 쿼리"**를 실행할 수 있는 서버리스 서비스는 **Amazon Athena**입니다.
+
+<b>A (오답):</b> Amazon Redshift는 데이터를 **자체 클러스터로 로드한 후**에 분석하는 데이터 웨어하우스입니다.
+
+<b>D (오답):</b> AWS Glue는 데이터를 쿼리하기 좋게 준비하는 **ETL(추출, 변환, 로드)** 서비스이지, 쿼리를 직접 실행하는 도구가 아닙니다.
+
+</details>
